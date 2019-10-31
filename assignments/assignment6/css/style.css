@@ -1,0 +1,100 @@
+html {
+    margin: 0;
+    background-color: #CCD6DD;
+}
+
+/* Flexbox Styles */
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+    
+.headfoot {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.item {
+    margin: auto;
+}
+
+/* End Flexbox */
+
+/* Header */
+
+header {
+    background-color: darkslategray;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.title h2, h5 {
+    padding: 0;
+}
+
+/* End Header */
+
+
+/* Navigation */
+
+.nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 20px;
+}
+
+.nav > ul > li > a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav > ul > li > a:hover {
+    color: slategray;
+} 
+
+/* End Navigation */
+
+/* Main Content */
+    .content {
+        font-family: 'Courier New', Courier, monospace;
+        width: 70%;
+    }
+
+h3 > a {
+    color: black;
+    text-decoration: none;
+}
+/* End Main Content */
+
+/* Topic Cards */
+    .card {
+        border: 1px solid darkgray;
+        border-radius: 8px;
+        padding: 8px;
+        margin: 5px 0 5px 0;
+        background-color: lightgray;
+    }
+/* End Topic Cards */
+
+/* Footer */
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkslategray;    
+    color: white;
+}
+
+footer > div > a {
+    color: white;
+    text-decoration: none;
+}
+/* End Footer */

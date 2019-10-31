@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up for Tutoring</title>
+        <meta charset="UTF-8">
+        
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: lavender;
+            }
+
+            .intro {
+                background-color: cadetblue;
+                padding: 30px;
+                color: white;
+                text-shadow: 2px 2px 4px #000000;
+            }
+
+            .signup {
+                background-color: lavender;
+                width: 40%;
+                margin: 0 30% 0 30%;
+            }
+            
+            .entry, textarea {
+                display: block;
+                margin: 0 auto;
+                width: 90%;
+                border-radius: 4px;
+                padding: 5px;
+            }
+        
+            .entrylabel {
+                display: block;
+                margin: 0 auto;
+                width: 93%;
+            }
+
+            .checkbox {
+                padding-left: 20px;
+            }
+
+            .checkboxes {
+                display: inline-block;
+                width: 40%;
+            }
+
+            legend {
+                font-weight: bold;
+                border: 1px solid black;
+                border-radius: 3px;
+                padding: 5px;
+            }
+
+            input[type="submit"] {
+                background-color: green;
+                padding: 5px;
+                border: 2px solid  darkgreen;
+                border-radius: 5px;
+                width: 60%;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="intro">
+            <h1>Welcome to SCC Tech Tutoring</h1>
+            <h3>Sign up below for assistance in any of the topics listed.</h3>
+            <h4>If your topic isn't listed, check other and add comments to see what we can do to help.</h4>        
+        </div>
+        <br>
+        <form action="success.html" method="post">
+            <fieldset class="signup">
+                <legend>Signup for Tutoring</legend>
+                <br>
+                <label class="entrylabel" for="firstname">First Name: </label>
+                <input class="entry" type="text" id="firstname" required="required" placeholder="required">
+                <br>
+                <label class="entrylabel" for="lastname">Last Name: </label>
+                <input class="entry" type="text" id="lastname" required="required" placeholder="required">
+                <br>
+                <label class="entrylabel" for="email">Email: </label>
+                <input class="entry" type="email" id="email" required="required" placeholder="required">
+                <br>
+                <section>
+                    <h4 class="entry">Check all subjects that apply:</h4>
+                    <div class="checkboxes">    
+                        <div class="checkbox">
+                            <input type="checkbox" name="language" value="html" />HTML<br>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="language" value="css" />CSS<br>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="language" value="javascript" />JavaScript<br>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="language" value="python" />Python<br>
+                        </div>
+                    </div>
+                    <div class="checkboxes">
+                        <div class="checkbox">
+                            <input type="checkbox" name="language" value="django" />Django<br>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="language" value="sql" />SQL<br>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="language" value="java" />Java<br>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="language" value="other" />Other<br>
+                        </div>
+                    </div>
+                </section>
+                <br>
+                <p>Questions, Comments, or Concerns:</p>
+                <textarea name="comments" placeholder="Enter comments here" cols="50" rows="8"></textarea><br>
+                <input type="submit" value="Submit"/>
+            </fieldset>
+        </form>
+
+        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.alaega.dreamhosters.com%2Fweb110%2Fassignments%2Fassignment5%2Fa5.html"><img src="../../images/W3C-Markup-Validator.png" alt="W3C validator image" height="50"></a>
+    </body>
+</html>
