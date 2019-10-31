@@ -84,6 +84,11 @@ h3 > a {
         margin: 5px 0 5px 0;
         background-color: lightgray;
     }
+
+    .logo {
+        float: left;
+        overflow: auto;
+    }
 /* End Topic Cards */
 
 /* Footer */
