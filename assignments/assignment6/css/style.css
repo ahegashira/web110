@@ -85,9 +85,10 @@ h3 > a {
         background-color: lightgray;
     }
 
-    .logo {
+    .logo, .portrait {
         float: left;
         overflow: auto;
+        padding: 0 10px 10px 0;
     }
 /* End Topic Cards */
 
