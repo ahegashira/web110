@@ -88,7 +88,7 @@ h3 > a {
     .logo, .portrait {
         float: left;
         overflow: auto;
-        padding: 0 10px 10px 0;
+        padding: 10px;
     }
 /* End Topic Cards */
 
