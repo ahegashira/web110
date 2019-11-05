@@ -68,6 +68,7 @@ header {
     .content {
         font-family: 'Courier New', Courier, monospace;
         width: 70%;
+        text-align: justify;
     }
 
     h3 > a {
@@ -104,6 +105,45 @@ footer > div > a {
     text-decoration: none;
 }
 /* End Footer */
+
+/* Form */
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    display: inline-block;
+}
+
+.quarterpage {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.threequarter {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /* For screens less than 600px wide, stack label and input fields */
+@media screen and (max-width: 600px) {
+    .quarterpage, .threequarter, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+/* End Form */
 
 /* Success */
 .success {
