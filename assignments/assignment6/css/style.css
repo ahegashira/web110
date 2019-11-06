@@ -1,6 +1,6 @@
 html {
     margin: 0;
-    background-color: #CCD6DD;
+    background-color: #FBFCFE;
 }
 
 /* Flexbox Styles */
@@ -28,12 +28,12 @@ html {
 /* Header */
 
 header {
-    background-color: darkslategray;
+    background-color: #1B57FE;
 }
 
 .title {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: #2E0A39;
 }
 
 .title h2, h5 {
@@ -59,7 +59,9 @@ header {
 }
 
 .nav > ul > li > a:hover {
-    color: slategray;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-line: overline underline;
+    color: black;
 } 
 
 /* End Navigation */
@@ -136,8 +138,8 @@ label {
     clear: both;
 }
 
-    /* For screens less than 600px wide, stack label and input fields */
-@media screen and (max-width: 600px) {
+    /* For screens less than 680px wide, stack label and input fields */
+@media screen and (max-width: 680px) {
     .quarterpage, .threequarter, input[type=submit] {
       width: 100%;
       margin-top: 0;
