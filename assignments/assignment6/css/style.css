@@ -36,8 +36,13 @@ html {
     color: #2E0A39;
 }
 
-.title h2, h5 {
+.title h1, h5 {
     padding: 0;
+}
+
+.title h1 {
+    font-family: 'Fredericka the Great', cursive, 'Courier New', Courier, monospace;
+    text-shadow: -1px -1px white;
 }
 
 /* End Header */
@@ -48,6 +53,7 @@ html {
 .nav > ul > li {
     display: inline-block;
     list-style-type: none;
+    border: 1px solid #FBFCFE;
     padding: 5px 20px;
     margin-top: 3px;
     box-shadow: inset 1px 1px 20px white;
@@ -78,6 +84,12 @@ html {
     h3 > a {
         color: black;
         text-decoration: none;
+    }
+
+    h3 {
+        font-family: 'Share Tech Mono','Courier New', Courier, monospace;
+        text-decoration-line: underline;
+        text-shadow: 1px 1px 2px #1B57FE;
     }
 /* End Main Content */
 
