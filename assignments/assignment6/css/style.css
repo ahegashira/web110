@@ -49,6 +49,9 @@ html {
     display: inline-block;
     list-style-type: none;
     padding: 5px 20px;
+    margin-top: 3px;
+    box-shadow: inset 1px 1px 20px white;
+    border-radius: 8px;
 }
 
 .nav > ul > li > a {
@@ -83,8 +86,9 @@ html {
         border: 1px solid darkgray;
         border-radius: 8px;
         padding: 8px;
-        margin: 5px 0 5px 0;
+        margin: 5px 0 20px 0;
         background-color: lightgray;
+        box-shadow: -1px -1px 8px darkslategray;
     }
 
     .logo, .portrait {
