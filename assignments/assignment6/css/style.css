@@ -137,6 +137,19 @@ footer > div > a {
 /* End Footer */
 
 /* Form */
+fieldset {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #2E0A39;
+}
+
+legend {
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #2E0A39;
+    padding: 5px;
+}
+
 input, textarea {
     width: 100%;
     padding: 5px;
@@ -146,6 +159,11 @@ input, textarea {
 
 label {
     display: inline-block;
+}
+
+.submit {
+    align-content: center;
+    width: 20%;
 }
 
 .quarterpage {
