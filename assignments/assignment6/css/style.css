@@ -85,6 +85,10 @@ html {
     color: orangered;
 } 
 
+ul > li.hide {
+    display: none;
+}
+
 /* End Navigation */
 
 /* Main Content */
