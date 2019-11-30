@@ -1,0 +1,207 @@
+/* Layout  */
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.left {
+    width: 25%;
+    background-color: #2c3531;
+}
+
+.right {
+    width: 75%;
+    background-color: beige;
+}
+
+/* End Layout */
+
+/* Header */
+
+.ltitle {
+    letter-spacing: 3px;
+    text-shadow: -2px 2px black;
+    text-align: right;
+    color: #d1e8e2;
+}
+
+.rtitle {
+    color: #116466;
+    text-shadow: -2px 2px #d1e8e2;
+}
+
+.rtitle, .ltitle {
+    margin-top: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle {
+    padding-left: 3vh;
+    padding-bottom: 9vh;
+    margin-bottom: 0;
+    text-shadow: none;
+}
+
+/* End Header */
+
+/* Navigation */
+
+.nav {
+    position: fixed;
+    width: 25%;
+    margin-top: 12vh;
+    padding-inline-start: 0;
+    color: beige;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    list-style-type: none;
+}
+
+.nav > li {
+    padding: 8px;
+}
+
+.nav > li > a {
+    color: beige;
+    text-decoration: none;
+    padding: 8px;
+
+}
+
+.nav > li> a:hover {
+    border: 1px dotted #d1e8e2;
+    padding: 8px; 
+    border-radius: 5px;
+    background-color: #116466;
+}
+
+/* End Navigation */
+
+.content {
+    width: 80%;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: justify;
+}
+
+/* Topic Cards */
+
+.card {
+    color: black;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px 0 20px 0;
+    background-color: beige;
+    box-shadow: -1px -1px 8px darkslategray;
+    min-height: 165px;
+}
+
+.card > div > ul > li > a {
+    color: #116466;
+}
+
+.logo, .portrait {
+    float: left;
+    overflow: auto;
+    padding: 10px;
+}
+
+/* End Topic Cards */
+
+/* Form */
+
+fieldset {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #2E0A39;
+}
+
+legend {
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #2E0A39;
+    padding: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    display: inline-block;
+}
+
+.submit {
+    align-content: center;
+    width: 20%;
+}
+
+.quarterpage {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.threequarter {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /* For screens less than 680px wide, stack label and input fields */
+@media screen and (max-width: 680px) {
+    .quarterpage, .threequarter, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/* End Form */
+
+/* Success */
+
+.success {
+    margin-top: 35vh;
+    margin-bottom: 30vh;
+    text-align: center;
+}
+
+/* End Success */
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 25%;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color: #d1e8e2;
+}
+
+.footer > a, p.footer {
+    padding: 0 20px;
+    font-size: x-small;
+    color: #d1e8e2;
+    text-decoration: none;
+}
+
+/* End Footer */
