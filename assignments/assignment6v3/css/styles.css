@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+}
+
+.logo {
+    height: 22vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b-purple {
+    border: 1px solid rgba(62, 58, 113, 255);
+}
+
+.bg-purple {
+    background-color: rgba(62, 58, 113, 255);
+}
+
+
+
