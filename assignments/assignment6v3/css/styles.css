@@ -10,12 +10,20 @@ body {
     margin-right: auto;
 }
 
+.tech-logo {
+    width: 10em;
+}
+
 .b-purple {
     border: 1px solid rgba(62, 58, 113, 255);
 }
 
 .bg-purple {
     background-color: rgba(62, 58, 113, 255);
+}
+
+.shadow {
+    box-shadow: 3px 3px 5px rgba(62, 58, 113, 255);
 }
 
 

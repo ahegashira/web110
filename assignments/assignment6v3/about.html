@@ -42,25 +42,25 @@
         <div class="col-sm-12">
             
         <main class="content container">
-            <section class="card">
+            <section class="card mt-3 shadow">
                 <article class="card-body">
                     <h4 class="card-title">About Me</h4>
-                    <p class="card-text text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    <p class="card-text text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p class="card-text text-justify">My name is Hiro Egashira and while I believe that a formal education can help people make progress in their careers, I do not believe that it is the only way to learn and I do not believe that a lack of formal education should limit anyone's options.</p>
+                    <p class="card-text text-justify">I created this collection of resources with that in mind and hope that it will help people interested in coding get their start on their journey. If you have any questions, comments, concerns, or just want to say hi then reach out with the form below.</p>
+                    <p class="card-text text-justify">Thanks for your support.</p>
                 </article>
             </section>
-            <section class="p-3 m-3">
-                <form action="success.html" method="post">
+            <section class="card p-3 m-3 shadow">
+
+                <form class="card-body" action="success.html" method="post">
                     <div class="form-row">
                         <div class="col-md-4 mb-3">
                             <label for="validationServer01">First name</label>
-                            <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-                            <div class="valid-feedback">Looks good!</div>
+                            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" required>
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationServer02">Last name</label>
-                            <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
-                            <div class="valid-feedback">Looks good!</div>
+                            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last Name" required>
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationServerUsername">Username</label>
@@ -68,8 +68,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="inputGroupPrepend3">@</span>
                             </div>
-                            <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
-                            <div class="invalid-feedback">Please choose a username.</div>
+                            <input type="text" class="form-control is-invalid" id="validationServerUsername"  placeholder="name@example.com" aria-describedby="inputGroupPrepend3" required>
                         </div>
                     </div>
                 </div>
@@ -77,9 +76,6 @@
                       <div class="col-md-6 mb-3">
                         <label for="validationServer03">City</label>
                         <input type="text" class="form-control is-invalid" id="validationServer03" required>
-                        <div class="invalid-feedback">
-                          Please provide a valid city.
-                        </div>
                       </div>
                       <div class="col-md-3 mb-3">
                         <label for="validationServer04">State</label>
@@ -87,29 +83,13 @@
                           <option selected disabled value="">Choose...</option>
                           <option>...</option>
                         </select>
-                        <div class="invalid-feedback">
-                          Please select a valid state.
-                        </div>
                       </div>
                       <div class="col-md-3 mb-3">
                         <label for="validationServer05">Zip</label>
                         <input type="text" class="form-control is-invalid" id="validationServer05" required>
-                        <div class="invalid-feedback">
-                          Please provide a valid zip.
                         </div>
-                      </div>
                     </div>
-                    <div class="form-group">
-                      <div class="form-check">
-                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                        <label class="form-check-label" for="invalidCheck3">
-                          Agree to terms and conditions
-                        </label>
-                        <div class="invalid-feedback">
-                          You must agree before submitting.
-                        </div>
-                      </div>
-                    </div>
+                
                     <button class="btn btn-primary" type="submit">Submit form</button>
                   </form>
             </section>
