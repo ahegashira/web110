@@ -26,5 +26,76 @@ body {
     box-shadow: 3px 3px 5px rgba(62, 58, 113, 255);
 }
 
+/* Form */
+
+fieldset {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #2E0A39;
+    box-shadow:1px 1px 5px #116466;
+}
+
+legend {
+    background-color: beige;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #2E0A39;
+    padding: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    display: inline-block;
+}
+
+.submit {
+    align-content: center;
+    width: 20%;
+    border-radius: 3px;
+}
+
+.quarterpage {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.threequarter {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /* For screens less than 680px wide, stack label and input fields */
+@media screen and (max-width: 680px) {
+    .quarterpage, .threequarter, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/* End Form */
+
+/* Success */
+
+.success {
+    margin-top: 28vh;
+    margin-bottom: 30vh;
+    text-align: center;
+}
+
+/* End Success */
 
 
