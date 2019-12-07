@@ -1,14 +1,4 @@
-header.sticky {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    z-index:99999;
-  }
-
-body {
-    background-color: beige;
-    margin-bottom: 10vh;
-}
+/* Header & Nav */
 
 .logo {
     height: 22vh;
@@ -17,24 +7,84 @@ body {
     margin-right: auto;
 }
 
+header.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index:99999;
+  }
+
+header {
+    border-top: 3px solid rgb(255, 234, 118);
+    border-bottom: 3px solid rgb(255, 234, 118);
+    background-color: rgba(62, 58, 113, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.nav-item:hover {
+    text-shadow: 1px 0px rgb(255, 234, 118);
+}
+
+/* End Header & Nav */
+
+/* General Content */
+
+body {
+    background-color: beige;
+    margin-bottom: 10vh;
+}
+
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px rgb(255, 234, 118);
+}
+
+footer {
+    background-color: rgba(62, 58, 113, 255);
+}
+
+/* End General Content */
+
+/* Components */
+
+.info-card {
+    border: 1px solid rgba(62, 58, 113, 255);
+    border-radius: 10px;
+    margin-top: 16px;
+    box-shadow: 3px 3px 5px rgba(62, 58, 113, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.buttons {
+    margin: 4px;
+    background-color: rgb(255, 234, 118);
+    color: rgba(62, 58, 113, 255);
+    border: 1px solid rgba(62, 58, 113, 255);
+    border-radius: 8%;
+    box-shadow: 1px 1px 3px rgba(62, 58, 113, 255);
+}
+
+/* End Components */
+
+/* Logos & Images */
+
 .tech-logo {
     width: 10em;
 }
 
-.info-card {
-    border: 1px solid rgba(62, 58, 113, 255);
-    margin-top: 16px;
-}
+/* End Logos & Images */
 
-.bg-purple {
-    background-color: rgba(62, 58, 113, 255);
-}
-
-.shadow {
-    box-shadow: 3px 3px 5px rgba(62, 58, 113, 255);
-}
+/* Form */
 
 .f-input {
     width: 100%;
     border: 1px solid rgba(62, 58, 113, 255);
+    padding: 4px;
 }
+
+/* End Form */
+
+
+
