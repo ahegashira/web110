@@ -12,7 +12,7 @@ header.sticky {
     position: sticky;
     top: 0;
     z-index:99999;
-  }
+}
 
 header {
     border-top: 3px solid rgb(255, 234, 118);
@@ -32,7 +32,6 @@ header {
 
 body {
     background-color: beige;
-    margin-bottom: 10vh;
 }
 
 h5 {
@@ -42,6 +41,8 @@ h5 {
 
 footer {
     background-color: rgba(62, 58, 113, 255);
+    margin-top: 20px;
+    border-top: 3px solid rgb(255, 234, 118);
 }
 
 /* End General Content */
@@ -54,7 +55,8 @@ footer {
     margin-top: 16px;
     box-shadow: 3px 3px 5px rgba(62, 58, 113, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons {
@@ -72,6 +74,10 @@ footer {
 
 .tech-logo {
     width: 10em;
+}
+
+.btn-twitter {
+    font-size: 16px;
 }
 
 /* End Logos & Images */

@@ -11,7 +11,7 @@
     </head>
     <body>
         <div>
-            <img class="logo" src="images/gitinit_logo.png">
+            <img class="logo" src="images/gitinit_logo.png" alt="gitinit logo">
         </div>
         <header>
         <nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
@@ -29,65 +29,63 @@
                         <a class="nav-link" href="topics.html">Topics</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link active" href="people.html">People</a>
+                        <a class="nav-link" href="people.html">People</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" href="about.html">About</a>
                     </li>
                 </ul>
             </div>
         </nav>
         </header>
-        <div>
+    
         <div class="col-sm-12">
             
         <main class="content container">
-            <section class="card info-card">
+            <div class="card info-card">
                 <article class="card-body">
                     <h5 class="card-title">About Me</h5>
                     <p class="card-text text-justify">My name is Hiro Egashira and while I believe that a formal education can help people make progress in their careers, I do not believe that it is the only way to learn and I do not believe that a lack of formal education should limit anyone's options.</p>
                     <p class="card-text text-justify">I created this collection of resources with that in mind and hope that it will help people interested in coding get their start on their journey. If you have any questions, comments, concerns, or just want to say hi then reach out with the form below.</p>
                     <p class="card-text text-justify">Thank you for your support.</p>
                 </article>
-            </section>
-            <section class="card info-card">
+            </div>
+            <div class="card info-card">
                 <form class="card-body" action="success.html" method="post">
                     <div class="form-row">
                         <div class="col-md-4 mb-3">
-                            <label for="First Name">First name</label>
+                            <label for="first_name">First name</label>
                             <input type="text" class="f-input" id="first_name" placeholder="First name" required>
                         </div>
                         <div class="col-md-4 mb-3">
-                            <label for="Last Name">Last name</label>
+                            <label for="last_name">Last name</label>
                             <input type="text" class="f-input" id="last_name" placeholder="Last Name" required>
                         </div>
                         <div class="col-md-4 mb-3">
-                            <label for="Email">Email</label>
+                            <label for="email">Email</label>
                             <input type="text" class="f-input" id="email" placeholder="Email" required>
                         </div>
                         <div class="col-md-12">
-                            <label for="Comment">Comments</label>
+                            <label for="comments">Comments</label>
                             <textarea class="f-input" id="comments" rows="3"></textarea>
                         </div>
                     </div>
                     
                     <button class="btn buttons" type="submit">Submit form</button>
                 </form>
-            </section>
+            </div>
         </main>
         </div>
 
-        <footer class="col-sm-12 navbar-dark fixed-bottom">
+        <footer class="col-sm-12 navbar-dark">
             <div class="container">
-                <a href="#">VALID HTML</a>
-                <a href="#">VALID CSS</a>
+                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falaega.dreamhosters.com%2Fweb110%2Fassignments%2Fassignment6v3%2Fabout.html"><img src="images/W3C-Markup-Validator.png" alt="HTML Validator Logo" height="30"></a>
             </div>
         </footer>
-       
-    
-        <script src="js/script.js"></script>
+
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     </body>
 </html>
